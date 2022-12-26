@@ -70,3 +70,17 @@ code {
   background-color: #ff3119;
   margin: 0 20px;
 }
+@media(max-width:800px){
+  .child{
+    display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .box2{
+    width: 100%;
+  }
+}
